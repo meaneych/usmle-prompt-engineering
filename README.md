@@ -37,7 +37,7 @@ This separation ensures that prompt examples are not reused in the evaluation se
 
 ### Analysis Notebook
 
-**example1_prompt_eng_usmle_mcq_ver2.ipynb**
+**example1_prompt_eng_usmle_mcq_ver3.ipynb**
 
 Primary Jupyter notebook implementing the prompt-engineering experiment. The notebook:
 
@@ -53,7 +53,7 @@ Primary Jupyter notebook implementing the prompt-engineering experiment. The not
 
 ### HTML Report
 
-**example1_prompt_eng_usmle_mcq_ver2.html**
+**example1_prompt_eng_usmle_mcq_ver3.html**
 
 Static HTML export of the notebook for readers who wish to review the complete analysis without running Jupyter.
 
