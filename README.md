@@ -11,14 +11,27 @@ This repository accompanies the manuscript:
 
 ## Repository Contents
 
-### Input Dataset
+## Input Dataset
 
 **Medical Chat USMLE Correctness Check - Test 1_CM.csv**
 
-USMLE-style multiple-choice questions derived from the Medical Chat Performance Evaluation repository. The notebook uses a subset of MCQ items and partitions the data into:
+The USMLE-style multiple-choice question dataset used in this demonstration was obtained from the Medical Chat Performance Evaluation repository:
 
-- Reservoir set (10 questions) for one-shot and few-shot prompting
-- Test set (84 questions) for model evaluation
+> Chat Data LLC. Medical Chat Performance Evaluation Repository.  
+> https://github.com/chat-data-llc/medical_chat_performance_evaluation
+
+Original dataset:
+
+https://github.com/chat-data-llc/medical_chat_performance_evaluation/blob/main/test_datasets/USMLE/Medical%20Chat%20USMLE%20Correctness%20Check%20-%20Test%201.csv
+
+The local CSV file included in this repository is a working copy used for the prompt-engineering demonstration and reproducibility analyses presented in the accompanying manuscript.
+
+The notebook uses the multiple-choice question (MCQ) subset of the dataset and partitions the questions into:
+
+- Reservoir set (10 questions) used for one-shot and few-shot prompting examples
+- Test set (84 questions) used for model evaluation
+
+This separation ensures that prompt examples are not reused in the evaluation set.
 
 ---
 
