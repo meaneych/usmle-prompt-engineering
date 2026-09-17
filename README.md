@@ -205,20 +205,19 @@ The results reported in the accompanying manuscript should therefore be interpre
 
 The primary performance measure is **strict accuracy**:
 
-\[
+$$
 \text{Strict Accuracy} = \frac{N_{\text{correct}}}{N}
-\]
+$$
 
-where \(N\) is the total number of evaluation questions.
+where $N$ is the total number of evaluation questions.
 
 **Conditional accuracy** is reported as a secondary measure:
 
-\[
-\text{Conditional Accuracy} =
-\frac{N_{\text{correct}}}{N_{\text{valid}}}
-\]
+$$
+\text{Conditional Accuracy} = \frac{N_{\text{correct}}}{N_{\text{valid}}}
+$$
 
-where \(N_{\text{valid}}\) is the number of valid model responses.
+where $N_{\text{valid}}$ is the number of valid model responses.
 
 Reporting both measures distinguishes incorrect answers from invalid or unsuccessful model responses.
 
